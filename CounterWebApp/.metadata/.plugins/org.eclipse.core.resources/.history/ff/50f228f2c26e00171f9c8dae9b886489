@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>Spring MVC Form Handling</title>
+</head>
+<body>
+<table>
+	<tr>
+  	<td>${element.id}</td>
+    <td><a href="studentinfo.jsp">${element.firstName} ${element.lastName}</a></td>
+    <td>${element.age}</td>
+    <td>${element.number}</td>
+    <td>${element.email}</td>
+  </tr>
+  </table>>
+</body>
+</html>>

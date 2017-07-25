@@ -1,0 +1,15 @@
+import java.lang.String;
+import java.lang.System;
+
+public class TCS {
+
+	public static void main(String[] argv) {
+		
+	}
+	
+	public static void print(int i)
+	{
+		System.out.println("dfadfads");
+	}
+
+}

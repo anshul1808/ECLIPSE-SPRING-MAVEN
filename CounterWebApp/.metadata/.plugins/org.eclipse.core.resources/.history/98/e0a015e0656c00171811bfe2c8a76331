@@ -1,0 +1,8 @@
+import java.lang.String;
+import java.lang.System;
+
+public class GenericsDemo{
+	public static void main(String[] args){
+		list1= new Object[5];
+	}
+}

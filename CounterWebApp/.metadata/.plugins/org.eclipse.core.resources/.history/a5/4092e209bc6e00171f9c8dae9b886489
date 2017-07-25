@@ -1,0 +1,20 @@
+package com.mkyong.controller;
+import java.util.*;
+
+public class Cache
+{		
+	private static Map<Integer,Student> studentMap = new HashMap<>();
+	private static int counter =0;
+	
+	public static void addStudent(Student s){
+		s.setId(++counter);
+		studentMap.put(s.getId(),s);
+		
+	}
+	
+	public static List listStudent()
+	{		
+		List<Student> studentList = new ArrayList<>(studentMap.values());
+		return studentList ;
+	}
+}

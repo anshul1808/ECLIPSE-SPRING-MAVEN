@@ -1,0 +1,11 @@
+import java.util.*;
+public class TestEmp
+	{
+	public static void main(String[] args)
+	{	
+		ArrayList&lt;Integer&gt; arrList=new ArrayList&1t;Integer&gt;();
+		arrList.add(5);
+		arrList.add(new Integer(10));
+		arrList.add("20");
+	}
+}

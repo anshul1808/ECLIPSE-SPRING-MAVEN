@@ -1,0 +1,11 @@
+<html>
+<head>
+    <title>Spring MVC Form Handling</title>
+</head>
+<body>
+${student.firstName}
+${student.lastName}
+${student.age}
+${student.number}
+</body>
+</html>

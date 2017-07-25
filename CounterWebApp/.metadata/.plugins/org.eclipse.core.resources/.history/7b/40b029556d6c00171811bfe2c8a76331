@@ -1,0 +1,37 @@
+import java.util.*;
+public class Emp
+{
+private int age;
+public Emp( int age){
+super();
+this.age = age;
+}
+public int hashCode(){
+return age;
+}
+public boolean equals( Object obj){
+boolean flag = false; 
+Emp emp = ( Emp )obj;
+if( emp.age == age)
+flag = true;
+return flag;
+}
+public class TestEmp{
+public static void main(String[]args)
+{
+Emp emp1 = new Emp(23);
+Emp emp2= new Emp(24); 
+Emp emp3 = new Emp(25);
+Emp emp4 = new Emp(26);
+Emp emp5 = new Emp(27);
+HashSet hs = new HashSet();
+hs.add(emp1);
+hs.add(emp2);
+hs.add(emp3);
+hs.add(emp4); 
+hs.add(emp5);
+System.out.print(hs.size());
+System.out.print(hs.contains(new Emp(25)));
+System.out.print(hs.remove( new Emp(24)));
+System.out.print(hs.size());
+}}}

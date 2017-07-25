@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>Spring MVC Form Handling</title>
+</head>
+<body>
+<table border="5" cellpadding="20" bordercolor="blue" width="50%">
+<tr>
+	<th>ID</th>
+	<td>${student.id}</td>
+</tr>
+<tr>
+	<th>Name</th>
+</tr>
+<tr>
+	<th>Age</th>
+</tr>
+<tr>
+	<th>Number</th>
+</tr>
+<tr>
+	<th>Email</th>
+</tr>
+<tr>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Number</th>
+    <th>Email</th>
+  </tr>
+  <tr>
+  	<td>${student.id}</td>
+    <td>${student.firstName} ${student.lastName}</td>
+    <td>${student.age}</td>
+    <td>${student.number}</td>
+    <td>${student.email}</td>
+  </tr>
+
+</body>
+</html>

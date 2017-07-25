@@ -1,0 +1,18 @@
+public class Test
+{
+	void m1(Emp e1)
+	{
+		System.out.println("KUCH KARRR");
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		int k;
+		Test t=new Test();
+		Emp e=new Emp();
+		t.m1(e);
+		k=e.a;
+		System.out.println(k+10);
+	}
+}

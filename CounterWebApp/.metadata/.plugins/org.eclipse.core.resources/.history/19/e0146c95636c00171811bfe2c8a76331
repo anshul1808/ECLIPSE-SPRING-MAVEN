@@ -1,0 +1,18 @@
+import java.lang.String;
+import java.lang.System;
+
+public class TCS {
+
+	public static void main(String[] argv) {
+		abc(10);
+	}
+	
+	public static void abc(int i)
+	{
+		System.out.println("dfadfads");
+
+	}
+
+	
+}
+
